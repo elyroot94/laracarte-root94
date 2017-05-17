@@ -1,6 +1,7 @@
 <!Doctype html>
  <html lang="fr">
     <hea>
+        <title> {{page_title($title ? :'')}}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- google font-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
