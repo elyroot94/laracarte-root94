@@ -2,8 +2,8 @@
 
 @section('content')
     <div class="container">
-        <h2>What is Laracarte?</h2>
-        <p>Laracarte is a clone app of <a href="https://laramap.com" target="_blank">Laramap.com.</a></p>
+        <h2>What is {{config('app.name')}}?</h2>
+        <p>{{config('app.name')}} is a clone app of <a href="https://laramap.com" target="_blank">Laramap.com.</a></p>
 
         <div class="row">
             <div class="col-md-6">
